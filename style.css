@@ -1,0 +1,90 @@
+body {
+    font-family: 'Redressed', cursive;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.bg_Image {
+    background: url(Bokhari_chap.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.bg_wrapper{
+    color:white;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.bg_wrapper h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.bg_wrapper p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form_style {
+    text-align: center;
+}
+
+.form_style .place_name {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+
+.place_name {
+    text-align: center;
+}
+
+.form_style button{
+    width: 40%;
+    text-align: center;
+	background-color: #ab50df;
+	color: rgb(0, 0, 0);
+	padding: .6rem;
+	margin:1rem auto 0rem;
+    border: none;
+    outline: none;
+	border-radius: .6rem;
+}
+
+.kacchi {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kacchi_list {
+    float: left;
+    width: 32%;
+    margin-left: 1rem;
+
+}
+
+.kacchi_heading {
+    background-color: rgba(153, 72, 230, 0.856);
+    width: auto;
+}
+
+@media screen and (max-width: 700px)
+{
+    .kacchi_list
+    {
+        width: 100%;
+    }
+}
